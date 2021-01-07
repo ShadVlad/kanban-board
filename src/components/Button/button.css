@@ -1,0 +1,40 @@
+.btn {
+  width: 102px;
+  height: 29px;
+  border-radius: 5px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: #5E6C84;
+  outline: none;
+}
+
+.btn:hover {
+  background-color: #ffffff;
+  border: none;
+}
+
+.btn:active {
+  border: none;
+  color: #000000;
+}
+
+.btn:disabled {
+  cursor: auto;
+  background-color: transparent;
+}
+
+.Submit {
+  margin-top: 6px;
+  padding: 0;
+  background-color: #0079bf;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.Submit:hover {
+  background-color: #0079bf;
+  border: none;
+}

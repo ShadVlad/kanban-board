@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+//import logo from "./logo.svg";
+import { useState } from "react";
+import Header from "./components/Header/header";
+import Footer from "./components/Footer/footer";
+import Board from "./components/Board/board";
+import "./App.css";
 
 function App() {
+  const localStorageData = localStorage.getItem("tasks");
+  const [tasks, setData] = useState(
+    localStorageData ? JSON.parse(localStorageData) : ""
+  );
+  const updateData = (newData) => {
+    localStorage.setItem("tasks", JSON.stringify(newData));
+    setData(newData);
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <Board />
+      <Footer tasks={tasks} />
     </div>
   );
 }
