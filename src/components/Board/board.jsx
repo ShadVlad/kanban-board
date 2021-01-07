@@ -210,7 +210,6 @@ class Board extends React.Component {
                       name={item.btnName}
                       inputActivity={item.inputActivity}
                       onClick={() => this.onClickBtn(item.id)}
-                      onBlur={() => this.onChangeSelect(item.id)}
                       value={this.state.value}
                     />
                   </div>
