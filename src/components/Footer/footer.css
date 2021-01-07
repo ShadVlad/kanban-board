@@ -1,0 +1,55 @@
+.footer {
+  height: 55px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+
+  background-color: #0067A3;
+
+}
+
+.footer-content {
+  max-width: 1235px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 6px;
+  color: #FFFFFF;
+  padding-left: 19px;
+  padding-right: 16px;
+}
+
+.footer__counterblock {
+  margin-left: 14px;
+  width: 333px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.footer__copyright {
+  display: flex;
+  align-items: center;
+  margin-right: 16px;
+}
+
+.App-logo {
+  height: 40px;
+  pointer-events: none;
+}
+
+.footer__copyright-link {
+  margin: 0 5px;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-style: italic;
+}
+
+@media only screen and (max-width: 1247px) {
+  .footer {
+    display: none;
+  }
+}

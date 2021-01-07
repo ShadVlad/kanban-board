@@ -1,0 +1,44 @@
+label {
+  background-color: white;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  padding: 7px 12px;
+  border: none;
+  position: relative;
+  display: block;
+}
+
+.input {
+  width: 100%;
+  border: none;
+  outline: none;
+
+}
+
+label .input {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+}
+
+.input__hidden {
+  display: none;
+}
+
+select {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  border-radius: 5px;
+  min-height: 35px;
+  padding-left: 6px;
+  background-image: url('./down.svg');
+  background-repeat: no-repeat;
+  background-position: right .7em top 50%, 0 0;
+  color: #222;
+
+}
+
+option:in-range {
+
+  background-color: gren;
+  cursor: pointer;
+}

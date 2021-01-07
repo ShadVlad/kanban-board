@@ -1,0 +1,43 @@
+.header {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  background-color: #0067A3;
+}
+
+.header-content {
+  max-width: 1235px;
+  height: 55px;
+  margin: auto;
+  display: flex;
+  padding-left: 19px;
+  padding-right: 16px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  margin-left: 14px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 33px;
+  color: #FFFFFF;
+}
+
+@media only screen and (max-width: 1247px) {
+  .header {
+    background-color: transparent;
+    height: auto;
+
+  }
+
+  .header-content {
+    justify-content: flex-end;
+
+  }
+
+  .logo {
+    display: none;
+  }
+}
