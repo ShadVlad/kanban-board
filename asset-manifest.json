@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/kanban-board/static/css/main.ddc9d802.chunk.css",
+    "main.js": "/kanban-board/static/js/main.dcbacefa.chunk.js",
+    "main.js.map": "/kanban-board/static/js/main.dcbacefa.chunk.js.map",
+    "runtime-main.js": "/kanban-board/static/js/runtime-main.cd73dd5b.js",
+    "runtime-main.js.map": "/kanban-board/static/js/runtime-main.cd73dd5b.js.map",
+    "static/js/2.d8742630.chunk.js": "/kanban-board/static/js/2.d8742630.chunk.js",
+    "static/js/2.d8742630.chunk.js.map": "/kanban-board/static/js/2.d8742630.chunk.js.map",
+    "static/js/3.a0b1322a.chunk.js": "/kanban-board/static/js/3.a0b1322a.chunk.js",
+    "static/js/3.a0b1322a.chunk.js.map": "/kanban-board/static/js/3.a0b1322a.chunk.js.map",
+    "index.html": "/kanban-board/index.html",
+    "static/css/main.ddc9d802.chunk.css.map": "/kanban-board/static/css/main.ddc9d802.chunk.css.map",
+    "static/js/2.d8742630.chunk.js.LICENSE.txt": "/kanban-board/static/js/2.d8742630.chunk.js.LICENSE.txt",
+    "static/media/arrow-down.8f342ac9.svg": "/kanban-board/static/media/arrow-down.8f342ac9.svg",
+    "static/media/board.css": "/kanban-board/static/media/close.b330e8fd.svg",
+    "static/media/input.css": "/kanban-board/static/media/down.157e19ef.svg",
+    "static/media/logo.103b5fa1.svg": "/kanban-board/static/media/logo.103b5fa1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cd73dd5b.js",
+    "static/js/2.d8742630.chunk.js",
+    "static/css/main.ddc9d802.chunk.css",
+    "static/js/main.dcbacefa.chunk.js"
+  ]
+}
