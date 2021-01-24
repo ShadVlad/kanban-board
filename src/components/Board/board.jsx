@@ -202,6 +202,7 @@ class Board extends React.Component {
                         value={this.value}
                         onChange={this.onChangeInput}
                         onSelect={this.onChangeSelect}
+                        onBlur={() => this.onClickBtn(2)}
                       />
                     </div>
                     <Button
